@@ -1,0 +1,8 @@
+selenium
+pandas
+nltk
+bs4
+requests
+google_colab_selenium
+webdriver_manager
+tqdm
