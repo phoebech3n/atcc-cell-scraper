@@ -6,8 +6,8 @@ import re
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-from config import Config
-from cleaners import TextCleaner
+from .config import Config
+from .cleaners import TextCleaner
 
 class BasicInfoParser:
     """Parse basic cell information from product page"""

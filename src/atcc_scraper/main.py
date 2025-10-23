@@ -7,10 +7,10 @@ import os
 from tqdm import tqdm
 from typing import Optional
 
-from config import Config
-from scraper import ATCCScraper
-from exporters import DataExporter
-from parsers import *
+from .config import Config
+from .scraper import ATCCScraper
+from .exporters import DataExporter
+from .parsers import *
 
 class ATCCPipeline:
     """Main pipeline for scraping and processing ATCC cell data"""

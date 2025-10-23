@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
 
-from config import Config
+from .config import Config
 
 class ATCCScraper:
     """Main scraper class for ATCC website"""
